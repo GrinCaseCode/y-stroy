@@ -48,7 +48,7 @@
 	.whatsapp-block__image,
 	.col-lg-4 .billbord__image,
 	.header-bottom,
-	.header__contacts,
+	.header__contacts, 
 	.header-top {
 		display: none;
 	}
@@ -214,6 +214,9 @@
 	}
 	.billbord {
 		padding-top: 20px;
+	}
+	.footer {
+		padding-bottom: 40px;
 	}
 }
 

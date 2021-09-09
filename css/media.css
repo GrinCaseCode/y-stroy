@@ -46,7 +46,6 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	.whatsapp-block__image,
-	.col-lg-4 .billbord__image,
 	.header-bottom,
 	.header__contacts, 
 	.header-top {
@@ -56,7 +55,7 @@
 		height: initial;
 	}
 	.billbord__image img {
-		width: auto;
+		width: 100%;
 		max-width: 100%;
 		height: auto;
 		font-family: inherit;

@@ -1,5 +1,9 @@
 /*==========  Desktop First Method  ==========*/
-
+@media only screen and (max-width : 1320px) {
+	.social-fixed {
+		top: 205px;
+	}
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.menu li {
@@ -40,6 +44,25 @@
 	.item-advantage {
 		padding: 20px 20px;
 		padding-bottom: 25px;
+	}
+	.categories_page .item-category {
+		font-size: 14px;
+		padding-left: 16px;
+		padding-right: 19px;
+	}
+	.item-sidebar__content {
+		padding: 10px;
+		padding-top: 0;
+	}
+	.item-sidebar__head {
+		padding: 15px 10px;
+	}
+	.sidebar-buttons {
+		flex-wrap: wrap;
+	}
+	.sidebar-buttons .btn-main {
+		width: 160px;
+		margin-bottom: 10px;
 	}
 }
 
@@ -217,6 +240,40 @@
 	.footer {
 		padding-bottom: 40px;
 	}
+	.social-fixed {
+		top: 69px;
+	}
+	.breadcumbs {
+		padding: 20px 0;
+	}
+	.categories_page {
+		padding-top: 0;
+	}
+	.item-sidebar__head {
+		padding: 15px 20px;
+	}
+	.item-sidebar__content {
+		padding: 20px;
+		padding-top: 0;
+	}
+	.sidebar-catalog {
+		margin-top: 20px;
+		display: none;
+	}
+	.sorting-line {
+		margin-top: 15px;
+		justify-content: flex-start;
+	}
+	.btn-main_filter {
+		margin-top: 15px;
+		height: 50px;
+		max-width: 400px;
+		width: 100%;
+		justify-content: space-between;
+	}
+	.sidebar-buttons .btn-main {
+		width: 45%;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -275,6 +332,13 @@
 	.footer__nav_big, .footer__title {
 		font-size: 16px;
 		line-height: 29px;
+	}
+	.social-fixed {
+		display: none;
+	}
+	.pager {
+		justify-content: center;
+		margin-top: 10px;
 	}
 }
 
@@ -374,6 +438,26 @@
 	.billbord {
 		padding-top: 0;
 	}
+	.categories_page {
+		padding-bottom: 20px;
+	}
+	.sorting-line {
+		font-size: 13px;
+		flex-wrap: wrap;
+	}
+	.sorting-line p {
+		width: 100%;
+	}
+	.sorting-line a {
+		padding: 5px 8px;
+		margin-left: 0px;
+	}
+	.page-numbers.prev {
+		margin-right: 25px;
+	}
+	.page-numbers.next {
+		margin-left: 25px;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -401,8 +485,12 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	.btn-main_filter,
 	.menu-mobile  {
 		display: none !important;
+	}
+	.sidebar-catalog {
+		display: block !important;
 	}
 }
 

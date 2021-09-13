@@ -39,6 +39,18 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		});
 
 
+	$(".item-sidebar__head").click(function() {
+			$(this).parent().toggleClass("active");
+			$(this).siblings(".item-sidebar__content").slideToggle(200);
+		}); 
+
+
+$(".btn-main_filter").click(function(e) {
+	e.preventDefault();
+			$(".sidebar-catalog").slideToggle(200);
+		});
+
+
 {
     if ($(window).width() < 992) { 
       $(".footer__title").click(function() {
@@ -140,6 +152,54 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		});
 
 	});
+
+		/*range slider*/
+
+	$(function() {
+		var $range = $(".range-catalog__input"),
+		$from = $(".control-input__from"),
+		$to = $(".control-input__to"),
+		min = 0,
+		max = 50000;
+		$range.ionRangeSlider({
+			type: "double",
+			min: min,
+			max: max,
+			from: 1500,
+			to: 30000,
+			prettify_enabled: true,
+			onChange: function(data) {
+				updateValues()
+			}
+		});
+
+
+		$range = $range.data("ionRangeSlider");
+		var updateValues = function() {
+			var res = $range.result;
+			$from.val(res.from, true);
+			$to.val(res.to,true)
+		};
+		$from.on("focus", function() {
+			this.value = this.value;
+			this.focus();
+			this.selectionStart = this.value.length
+		}).on("input", function() {
+			$range.update({
+				from: this.value
+			})
+		}).on("blur", updateValues);
+		$to.on("focus", function() {
+			this.value = this.value;
+			this.focus();
+			this.selectionStart = this.value.length
+		}).on("input", function() {
+			$range.update({
+				to: this.value
+			})
+		}).on("blur", updateValues)
+	});
+
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 

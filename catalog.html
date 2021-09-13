@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.11" /> 
+	<link rel="stylesheet" href="css/media.css?ver=1.11" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<div class="buttons-mobile">
+			<a href="#" class="btn-mobile"><i class="far fa-home"></i></a>
+			<a href="#" class="btn-mobile"><i class="far fa-user"></i></a>
+			<a href="#" class="btn-mobile"><i class="far fa-signal-alt-3"></i></a>
+			<a href="#" class="btn-mobile"><i class="far fa-shopping-cart"></i><span class="btn-mobile__value">10</span></a>
+		</div>
+
+		<div class="social-fixed">
+			<ul>
+				<li><a href="#" style="background: #7360f2"><i class="fab fa-viber"></i></a></li>
+				<li><a href="#" style="background: #33ce62"><i class="fab fa-whatsapp"></i></i></a></li>
+				<li><a href="#" style="background: #df4db4"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+		</div>
+
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top__wrap">
+						<ul class="menu">
+							<li><a href="#">О магазине</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">Бонусная программа</a></li>
+							<li><a href="#">Оптовым покупателям</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+						<a href="#" class="links-authorization">Вход / Регистрация</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-middle">
+				<div class="container">
+					<div class="header-middle__wrap">
+						<div class="logo-wrap">
+							<a href="#" class="logo">
+								<img src="img/logo.png" alt="alt">
+							</a>
+							<div class="logo-descr">Гипермаркет строительных материалов с круглосуточной доставкой по Крыму</div>
+						</div>
+						<div class="contact-item">
+							<b>Адрес:</b>
+							<p>Симферополь, ул. Объездная</p>
+						</div>
+						<div class="contact-item">
+							<b><a href="mailto:u-stroy@yandex.ru">u-stroy@yandex.ru</a></b>
+							<a href="#callback" class="link-simple fancybox">Напишите мне</a>
+						</div>
+						<div class="header__contacts">
+							<a href="tel:+79780340395" class="phone-main">+7 (978) 034-03-95</a>
+							<a href="#callback" class="link-simple fancybox">Позвоните мне</a>
+						</div>
+						<a href="tel:+79780340395" class="phone-mob"><i class="fas fa-phone"></i></a>
+						<span class="btn_nav">
+							<span class='sandwich'>
+								<span class='sw-topper'></span>
+								<span class='sw-bottom'></span>
+								<span class='sw-footer'></span>
+							</span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="header-bottom__wrap">
+						<a href="#" class="btn-catalog"><i class="fas fa-bars"></i><span>Каталог</span></a>
+						<div class="form-search">
+							<form>
+								<input type="text" placeholder="Что вы ищете?" required="required">
+								<button class="btn-search"><i class="far fa-search"></i></button>
+							</form>
+						</div>
+						<div class="buttons-actions">
+							<a href="#" class="btn-action"><i class="far fa-signal-alt-3"></i></a>
+							<a href="#" class="btn-action"><i class="far fa-shopping-cart"></i><span class="btn-action__value">10</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<div class="form-search">
+					<form>
+						<input type="text" placeholder="Что вы ищете?" required="required">
+						<button class="btn-search"><i class="far fa-search"></i></button>
+					</form>
+				</div>
+				<ul class="menu-mobile__nav">
+					<li><a href="#">О магазине</a></li>
+					<li><a href="#">Доставка и оплата</a></li>
+					<li><a href="#">Акции</a></li>
+					<li><a href="#">Бонусная программа</a></li>
+					<li><a href="#">Оптовым покупателям</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="contact-item">
+					<b>Адрес:</b>
+					<p>Симферополь, ул. Объездная</p>
+				</div>
+				<div class="contact-item">
+					<b><a href="mailto:u-stroy@yandex.ru">u-stroy@yandex.ru</a></b>
+					<a href="#callback" class="link-simple fancybox">Напишите мне</a>
+				</div>
+				<div class="header__contacts">
+					<a href="tel:+79780340395" class="phone-main">+7 (978) 034-03-95</a>
+					<a href="#callback" class="link-simple fancybox">Позвоните мне</a>
+				</div>
+			</div>
+		</header>
+
+		<div class="container">
+			<ul class="breadcumbs">
+				<li><a href="#">Главная</a><span>></span></li>
+				<li><a href="#">Каталог</a><span>></span></li>
+				<li>Сухие смеси и грунтовки</li>
+			</ul>
+		</div>
+
+		<div class="catalog">
+			<div class="container">
+				<div class="title-section">Сухие смеси и грунтовки</div>
+				<div class="row">
+					<div class="col-lg-3">
+						<a href="#" class="btn-main btn-main_filter">Фильтр <i class="far fa-filter"></i></a>
+						<div class="sidebar-catalog">
+							<div class="item-sidebar active">
+								<div class="item-sidebar__head">Цена <i class="fas fa-chevron-down"></i></div>
+								<div class="item-sidebar__content" style="display: block;">
+									<div class="range-catalog">
+										<input type="text" class="range-catalog__input" name="my_range" value="" />
+										<div class="range-controls">
+											<div class="input-range">
+												<span>от</span>
+												<input type="text" maxlength="4" value="1500" class="control-input control-input__from" />
+											</div>
+											<div class="input-range">
+												<span>до</span>
+												<input type="text" maxlength="4" value="30000" class="control-input control-input__to" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Бренд <i class="fas fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<div class="item-checkbox">
+										<label>
+											<input type="checkbox" checked="checked" />
+											<span>Бренд 1</span>
+										</label>
+									</div>
+									<div class="item-checkbox">
+										<label>
+											<input type="checkbox"/>
+											<span>Бренд 2</span>
+										</label>
+									</div>
+									<div class="item-checkbox">
+										<label>
+											<input type="checkbox"/>
+											<span>Бренд 3</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="item-sidebar active">
+								<div class="item-sidebar__head">Вид работ <i class="fas fa-chevron-down"></i></div>
+								<div class="item-sidebar__content" style="display: block;">
+									<div class="item-checkbox">
+										<label>
+											<input type="checkbox" checked="checked" />
+											<span>Внутренние</span>
+										</label>
+									</div>
+									<div class="item-checkbox">
+										<label>
+											<input type="checkbox"/>
+											<span>Внутри и снаружи</span>
+										</label>
+									</div>
+									<div class="item-checkbox">
+										<label>
+											<input type="checkbox"/>
+											<span>Для внутренних и наружных работ</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="item-sidebar active">
+								<div class="item-sidebar__head">Основа <i class="fas fa-chevron-down"></i></div>
+								<div class="item-sidebar__content" style="display: block;">
+									<div class="item-checkbox">
+										<label>
+											<input type="checkbox" checked="checked" />
+											<span>Цементная</span>
+										</label>
+									</div>
+									<div class="item-checkbox">
+										<label>
+											<input type="checkbox"/>
+											<span>Силиконовая</span>
+										</label>
+									</div>
+									<div class="item-checkbox">
+										<label>
+											<input type="checkbox"/>
+											<span>Эпоксидная</span>
+										</label>
+									</div>
+									<div class="item-checkbox">
+										<label>
+											<input type="checkbox"/>
+											<span>Акриловая</span>
+										</label>
+									</div>
+									<div class="item-checkbox">
+										<label>
+											<input type="checkbox"/>
+											<span>Битумная</span>
+										</label>
+									</div>
+									<div class="item-checkbox">
+										<label>
+											<input type="checkbox"/>
+											<span>Затирка для швов</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="item-sidebar active">
+								<div class="item-sidebar__head">Основа <i class="fas fa-chevron-down"></i></div>
+								<div class="item-sidebar__content" style="display: block;">
+									<div class="colors-wrap">
+										<div class="item-color">
+											<label>
+												<input type="radio" checked="checked" name="color" />
+												<span style="background: #000"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #d9d9d9"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #753e17"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #ffffff; border-color: rgba(153,153,153,0.4);"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #f0d4a2"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #fe0000"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #ff6100"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #ff6100"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #ffea00"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #0249b1"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #723286"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #ff0078"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #007d12"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #fcccb6"></span>
+											</label>
+										</div>
+										<div class="item-color">
+											<label>
+												<input type="radio" name="color" />
+												<span style="background: #33ccff"></span>
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="sidebar-buttons">
+								<button class="btn-main">применить</button>
+								<button class="btn-main btn-main_gray">Очистить <span>+</span></button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<div class="sorting-line">
+							<p>Сортировать:</p>
+							<a href="#">по цене</a>
+							<a href="#">по названию</a>
+							<a href="#" class="active">по популярности</a>
+						</div>
+						<div class="row row_catalog">
+							<div class="col-xl-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__top">
+										<div class="articul-catalog">Арт. 12757510</div>
+										<div class="availability">В наличии</div>
+									</div>
+									<a href="#" class="item-catalog__title">Грунтовка полимерная Knauf Тифенгрунд 10 л</a>
+									<div class="item-catalog__price">922 Р/шт.</div>
+									<div class="item-catalog__bottom">
+										<div class="quantity">
+											<div class="quantity-button quantity-down">–</div>
+											<input type="number" min="1" step="1" value="1">
+											<div class="quantity-button quantity-up">+</div>
+										</div>
+										<a href="#" class="btn-main">В корзину</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__top">
+										<div class="articul-catalog">Арт. 12757510</div>
+										<div class="availability availability_empty">Нет в наличии</div>
+									</div>
+									<a href="#" class="item-catalog__title">Пескобетон Русеан <br>М300 40 кг</a>
+									<div class="item-catalog__price">250 Р/шт.</div>
+									<div class="item-catalog__bottom">
+										<div class="quantity">
+											<div class="quantity-button quantity-down">–</div>
+											<input type="number" min="1" step="1" value="1">
+											<div class="quantity-button quantity-up">+</div>
+										</div>
+										<a href="#" class="btn-main">В корзину</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog5.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__top">
+										<div class="articul-catalog">Арт. 12757510</div>
+										<div class="availability">В наличии</div>
+									</div>
+									<a href="#" class="item-catalog__title">Пескобетон Axton 30 кг</a>
+									<div class="item-catalog__price">922 Р/шт.</div>
+									<div class="item-catalog__bottom">
+										<div class="quantity">
+											<div class="quantity-button quantity-down">–</div>
+											<input type="number" min="1" step="1" value="1">
+											<div class="quantity-button quantity-up">+</div>
+										</div>
+										<a href="#" class="btn-main">В корзину</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog5.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__top">
+										<div class="articul-catalog">Арт. 12757510</div>
+										<div class="availability">В наличии</div>
+									</div>
+									<a href="#" class="item-catalog__title">Пескобетон Axton 30 кг</a>
+									<div class="item-catalog__price">922 Р/шт.</div>
+									<div class="item-catalog__bottom">
+										<div class="quantity">
+											<div class="quantity-button quantity-down">–</div>
+											<input type="number" min="1" step="1" value="1">
+											<div class="quantity-button quantity-up">+</div>
+										</div>
+										<a href="#" class="btn-main">В корзину</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__top">
+										<div class="articul-catalog">Арт. 12757510</div>
+										<div class="availability">В наличии</div>
+									</div>
+									<a href="#" class="item-catalog__title">Грунтовка глубокого проникновения Ceresit CT17 10 л</a>
+									<div class="item-catalog__price">740 Р/шт.</div>
+									<div class="item-catalog__bottom">
+										<div class="quantity">
+											<div class="quantity-button quantity-down">–</div>
+											<input type="number" min="1" step="1" value="1">
+											<div class="quantity-button quantity-up">+</div>
+										</div>
+										<a href="#" class="btn-main">В корзину</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__top">
+										<div class="articul-catalog">Арт. 12757510</div>
+										<div class="availability">В наличии</div>
+									</div>
+									<a href="#" class="item-catalog__title">Грунтовка полимерная Knauf Тифенгрунд 10 л</a>
+									<div class="item-catalog__price">922 Р/шт.</div>
+									<div class="item-catalog__bottom">
+										<div class="quantity">
+											<div class="quantity-button quantity-down">–</div>
+											<input type="number" min="1" step="1" value="1">
+											<div class="quantity-button quantity-up">+</div>
+										</div>
+										<a href="#" class="btn-main">В корзину</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__top">
+										<div class="articul-catalog">Арт. 12757510</div>
+										<div class="availability">В наличии</div>
+									</div>
+									<a href="#" class="item-catalog__title">Грунтовка полимерная Knauf Тифенгрунд 10 л</a>
+									<div class="item-catalog__price">922 Р/шт.</div>
+									<div class="item-catalog__bottom">
+										<div class="quantity">
+											<div class="quantity-button quantity-down">–</div>
+											<input type="number" min="1" step="1" value="1">
+											<div class="quantity-button quantity-up">+</div>
+										</div>
+										<a href="#" class="btn-main">В корзину</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__top">
+										<div class="articul-catalog">Арт. 12757510</div>
+										<div class="availability availability_empty">Нет в наличии</div>
+									</div>
+									<a href="#" class="item-catalog__title">Пескобетон Русеан <br>М300 40 кг</a>
+									<div class="item-catalog__price">250 Р/шт.</div>
+									<div class="item-catalog__bottom">
+										<div class="quantity">
+											<div class="quantity-button quantity-down">–</div>
+											<input type="number" min="1" step="1" value="1">
+											<div class="quantity-button quantity-up">+</div>
+										</div>
+										<a href="#" class="btn-main">В корзину</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog5.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__top">
+										<div class="articul-catalog">Арт. 12757510</div>
+										<div class="availability">В наличии</div>
+									</div>
+									<a href="#" class="item-catalog__title">Пескобетон Axton 30 кг</a>
+									<div class="item-catalog__price">922 Р/шт.</div>
+									<div class="item-catalog__bottom">
+										<div class="quantity">
+											<div class="quantity-button quantity-down">–</div>
+											<input type="number" min="1" step="1" value="1">
+											<div class="quantity-button quantity-up">+</div>
+										</div>
+										<a href="#" class="btn-main">В корзину</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog5.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__top">
+										<div class="articul-catalog">Арт. 12757510</div>
+										<div class="availability">В наличии</div>
+									</div>
+									<a href="#" class="item-catalog__title">Пескобетон Axton 30 кг</a>
+									<div class="item-catalog__price">922 Р/шт.</div>
+									<div class="item-catalog__bottom">
+										<div class="quantity">
+											<div class="quantity-button quantity-down">–</div>
+											<input type="number" min="1" step="1" value="1">
+											<div class="quantity-button quantity-up">+</div>
+										</div>
+										<a href="#" class="btn-main">В корзину</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__top">
+										<div class="articul-catalog">Арт. 12757510</div>
+										<div class="availability">В наличии</div>
+									</div>
+									<a href="#" class="item-catalog__title">Грунтовка глубокого проникновения Ceresit CT17 10 л</a>
+									<div class="item-catalog__price">740 Р/шт.</div>
+									<div class="item-catalog__bottom">
+										<div class="quantity">
+											<div class="quantity-button quantity-down">–</div>
+											<input type="number" min="1" step="1" value="1">
+											<div class="quantity-button quantity-up">+</div>
+										</div>
+										<a href="#" class="btn-main">В корзину</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__top">
+										<div class="articul-catalog">Арт. 12757510</div>
+										<div class="availability">В наличии</div>
+									</div>
+									<a href="#" class="item-catalog__title">Грунтовка полимерная Knauf Тифенгрунд 10 л</a>
+									<div class="item-catalog__price">922 Р/шт.</div>
+									<div class="item-catalog__bottom">
+										<div class="quantity">
+											<div class="quantity-button quantity-down">–</div>
+											<input type="number" min="1" step="1" value="1">
+											<div class="quantity-button quantity-up">+</div>
+										</div>
+										<a href="#" class="btn-main">В корзину</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pager">
+							<a class="prev page-numbers disabled" href="#"><i class="fas fa-chevron-left"></i></a>
+							<span aria-current="page" class="page-numbers current" href="#">1</span>
+							<a class="page-numbers" href="#">2</a>
+							<a class="page-numbers" href="#">3</a>
+							<a class="next page-numbers" href="#"><i class="fas fa-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<a href="#" class="logo">
+					<img src="img/logo.png" alt="alt">
+				</a>
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="logo-descr">Гипермаркет строительных материалов с круглосуточной доставкой по Крыму</div>
+						<ul class="social-list social-list_page">
+							<li><a href="#"><i class="fab fa-viber"></i></a></li>
+							<li><a href="#"><i class="fab fa-whatsapp"></i></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">КАТАЛОГ <i class="far fa-plus"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Категория товаров #1</a></li>
+								<li><a href="#">Категория товаров #2</a></li>
+								<li><a href="#">Категория товаров #3</a></li>
+								<li><a href="#">Категория товаров #4</a></li>
+								<li><a href="#">Категория товаров #5</a></li>
+								<li><a href="#">Категория товаров #6</a></li>
+								<li><a href="#">Категория товаров #7</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title footer__title_mob">Услуги <i class="far fa-plus"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav footer__nav_big">
+								<li><a href="#">ДОСТАВКА И ОПЛАТА</a></li>
+								<li><a href="#">АКЦИИ И СКИДКИ</a></li>
+								<li><a href="#">БОНУСНАЯ ПРОГРАММА</a></li>
+								<li><a href="#">ОПТОВЫМ ПОКУПАТЕЛЯМ</a></li>
+								<li><a href="#">О КОМПАНИИ</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 footer-right">
+						<div class="footer-right__content">
+							<div class="footer__title">Контакты <i class="far fa-plus"></i></div>
+							<div class="footer__content">
+								<div class="contact-item">
+									<b>Адрес:</b>
+									<p>Симферополь, ул. Объездная</p>
+								</div>
+								<div class="contact-item">
+									<b>Телефон:</b>
+									<a href="tel:+79780340395" class="phone-main">+7 (978) 034-03-95</a>
+								</div>
+								<div class="contact-item">
+									<b>Режим работы:</b>
+									<p>круглосуточно</p>
+								</div>
+								<div class="contact-item">
+									<b>E-mail:</b>
+									<p><a href="mailto:u-stroy@yandex.ru">u-stroy@yandex.ru</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-3">
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="col-lg-3 col_pl">
+							<p>г. Симферополь © Copyright 2021 г.</p>
+						</div>
+						<div class="col-lg-3">
+							<div class="create">Сделано в <img src="img/copy.svg" alt="alt"></div>
+						</div>
+						<div class="col-lg-3 align_right">
+							<a href="#" class="btn_top default"><i class="fa fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+ 
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.11"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

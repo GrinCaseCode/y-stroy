@@ -1590,7 +1590,7 @@ input[type=number]
 .btn-compare:hover {
 	color: #5e35b1;
 }
-.card-detail {
+.card-detail { 
 	padding: 25px 16px;
 	min-height: 100%;
 	background-color: #ffffff;

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.13" /> 
+	<link rel="stylesheet" href="css/media.css?ver=1.13" />
+</head>
+<body> 
+
+	<div class="wrapper">
+ 
+		<div class="buttons-mobile">
+			<a href="#" class="btn-mobile"><i class="far fa-home"></i></a>
+			<a href="#" class="btn-mobile"><i class="far fa-user"></i></a>
+			<a href="#" class="btn-mobile"><i class="far fa-signal-alt-3"></i></a>
+			<a href="#" class="btn-mobile"><i class="far fa-shopping-cart"></i><span class="btn-mobile__value">10</span></a>
+		</div>
+
+		<div class="social-fixed">
+			<ul>
+				<li><a href="#" style="background: #7360f2"><i class="fab fa-viber"></i></a></li>
+				<li><a href="#" style="background: #33ce62"><i class="fab fa-whatsapp"></i></i></a></li>
+				<li><a href="#" style="background: #df4db4"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+		</div>
+
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top__wrap">
+						<ul class="menu">
+							<li><a href="#">О магазине</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">Бонусная программа</a></li>
+							<li><a href="#">Оптовым покупателям</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+						<a href="#" class="links-authorization">Вход / Регистрация</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-middle">
+				<div class="container">
+					<div class="header-middle__wrap">
+						<div class="logo-wrap">
+							<a href="#" class="logo">
+								<img src="img/logo.png" alt="alt">
+							</a>
+							<div class="logo-descr">Гипермаркет строительных материалов с круглосуточной доставкой по Крыму</div>
+						</div>
+						<div class="contact-item">
+							<b>Адрес:</b>
+							<p>Симферополь, ул. Объездная</p>
+						</div>
+						<div class="contact-item">
+							<b><a href="mailto:u-stroy@yandex.ru">u-stroy@yandex.ru</a></b>
+							<a href="#callback" class="link-simple fancybox">Напишите мне</a>
+						</div>
+						<div class="header__contacts">
+							<a href="tel:+79780340395" class="phone-main">+7 (978) 034-03-95</a>
+							<a href="#callback" class="link-simple fancybox">Позвоните мне</a>
+						</div>
+						<a href="tel:+79780340395" class="phone-mob"><i class="fas fa-phone"></i></a>
+						<span class="btn_nav">
+							<span class='sandwich'>
+								<span class='sw-topper'></span>
+								<span class='sw-bottom'></span>
+								<span class='sw-footer'></span>
+							</span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="header-bottom__wrap">
+						<a href="#" class="btn-catalog"><i class="fas fa-bars"></i><span>Каталог</span></a>
+						<div class="form-search">
+							<form>
+								<input type="text" placeholder="Что вы ищете?" required="required">
+								<button class="btn-search"><i class="far fa-search"></i></button>
+							</form>
+						</div>
+						<div class="buttons-actions">
+							<a href="#" class="btn-action"><i class="far fa-signal-alt-3"></i></a>
+							<a href="#" class="btn-action"><i class="far fa-shopping-cart"></i><span class="btn-action__value">10</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<div class="form-search">
+					<form>
+						<input type="text" placeholder="Что вы ищете?" required="required">
+						<button class="btn-search"><i class="far fa-search"></i></button>
+					</form>
+				</div>
+				<ul class="menu-mobile__nav">
+					<li><a href="#">О магазине</a></li>
+					<li><a href="#">Доставка и оплата</a></li>
+					<li><a href="#">Акции</a></li>
+					<li><a href="#">Бонусная программа</a></li>
+					<li><a href="#">Оптовым покупателям</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="contact-item">
+					<b>Адрес:</b>
+					<p>Симферополь, ул. Объездная</p>
+				</div>
+				<div class="contact-item">
+					<b><a href="mailto:u-stroy@yandex.ru">u-stroy@yandex.ru</a></b>
+					<a href="#callback" class="link-simple fancybox">Напишите мне</a>
+				</div>
+				<div class="header__contacts">
+					<a href="tel:+79780340395" class="phone-main">+7 (978) 034-03-95</a>
+					<a href="#callback" class="link-simple fancybox">Позвоните мне</a>
+				</div>
+			</div>
+		</header>
+
+		<div class="container">
+			<div class="title-section title-section_page">Наши контакты</div>
+		</div>
+
+		<div class="contacts-page">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col_pl">
+						<div class="contacts-main">
+							<div class="contacts-main__wrap">
+								<div class="title-middle">Звоните</div>
+								<a href="tel:+79780340395" class="phone-main">+7 (978) 034-03-95</a>
+								<div class="availability">Работаем круглосуточно</div>
+							</div>
+							<div class="contacts-main__wrap">
+								<div class="contacts-mail">
+									<p>E-mail:</p>
+									<a href="mailto:u-stroy@yandex.ru"><strong>u-stroy@yandex.ru</strong></a>
+								</div>
+							</div>
+							<div class="contacts-main__wrap">
+								<div class="title-middle">Мы в социальных сетях</div>
+								<ul class="social-list">
+									<li><a href="#" style="background-color: #7360f2;"><i class="fab fa-viber"></i></a></li>
+									<li><a href="#" style="background-color: #33ce62;"><i class="fab fa-whatsapp"></i></i></a></li>
+									<li><a href="#" style="background-color: #df4db4;"><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+							<div class="contacts-main__wrap">
+								<div class="title-middle">Реквизиты</div>
+								<p>ООО «Ю-Строй». 123456. г. Симферополь, </p>
+								<p>ул. Объездная, 123 </p>
+								<br>
+								<p>ОГРН 1217800072203 </p>
+								<p>ИНН/КПП 7807248228/780701001</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5  col-md-6">
+						<div class="contacts-location">
+							<div class="title-middle">Адрес</div>
+							<p>Симферополь, ул. Объездная, 123</p>
+						</div>
+						<div class="block-form">
+							<div class="title-form">Если у вас есть предложения или вопросы — заполните форму</div>
+							<form>
+								<div class="item-form">
+									<input type="text" placeholder="Имя" required="required">
+								</div>
+								<div class="item-form">
+									<input type="email" placeholder="E-mail" required="required">
+								</div>
+								<div class="item-form">
+									<textarea placeholder="Сообщение"></textarea>
+								</div>
+								<button class="btn-main" type="submit">ОТПРАВИТЬ</button>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required" checked="checked" />
+										<span>Согласие на обработку персональных данных</span>
+									</label>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<p>Наш офис</p>
+						<div class="contacts-image">
+							<img src="img/contacts1.jpg" alt="alt">
+						</div>
+						<p>Наш склад</p>
+						<div class="contacts-image">
+							<img src="img/contacts2.jpg" alt="alt">
+						</div>
+						<p>Наш магазин</p>
+						<div class="contacts-image">
+							<img src="img/contacts3.jpg" alt="alt">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="map"></div>
+
+		<footer class="footer">
+			<div class="container">
+				<a href="#" class="logo">
+					<img src="img/logo.png" alt="alt">
+				</a>
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="logo-descr">Гипермаркет строительных материалов с круглосуточной доставкой по Крыму</div>
+						<ul class="social-list social-list_page">
+							<li><a href="#"><i class="fab fa-viber"></i></a></li>
+							<li><a href="#"><i class="fab fa-whatsapp"></i></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">КАТАЛОГ <i class="far fa-plus"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Категория товаров #1</a></li>
+								<li><a href="#">Категория товаров #2</a></li>
+								<li><a href="#">Категория товаров #3</a></li>
+								<li><a href="#">Категория товаров #4</a></li>
+								<li><a href="#">Категория товаров #5</a></li>
+								<li><a href="#">Категория товаров #6</a></li>
+								<li><a href="#">Категория товаров #7</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title footer__title_mob">Услуги <i class="far fa-plus"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav footer__nav_big">
+								<li><a href="#">ДОСТАВКА И ОПЛАТА</a></li>
+								<li><a href="#">АКЦИИ И СКИДКИ</a></li>
+								<li><a href="#">БОНУСНАЯ ПРОГРАММА</a></li>
+								<li><a href="#">ОПТОВЫМ ПОКУПАТЕЛЯМ</a></li>
+								<li><a href="#">О КОМПАНИИ</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 footer-right">
+						<div class="footer-right__content">
+							<div class="footer__title">Контакты <i class="far fa-plus"></i></div>
+							<div class="footer__content">
+								<div class="contact-item">
+									<b>Адрес:</b>
+									<p>Симферополь, ул. Объездная</p>
+								</div>
+								<div class="contact-item">
+									<b>Телефон:</b>
+									<a href="tel:+79780340395" class="phone-main">+7 (978) 034-03-95</a>
+								</div>
+								<div class="contact-item">
+									<b>Режим работы:</b>
+									<p>круглосуточно</p>
+								</div>
+								<div class="contact-item">
+									<b>E-mail:</b>
+									<p><a href="mailto:u-stroy@yandex.ru">u-stroy@yandex.ru</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-3">
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="col-lg-3 col_pl">
+							<p>г. Симферополь © Copyright 2021 г.</p>
+						</div>
+						<div class="col-lg-3">
+							<div class="create">Сделано в <img src="img/copy.svg" alt="alt"></div>
+						</div>
+						<div class="col-lg-3 align_right">
+							<a href="#" class="btn_top default"><i class="fa fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</footer>
+		
+	</div>
+
+	<div id="callback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-middle">Заказать звонок</div>
+			<div class="descr-modal">Заполните форму и наш менеджер свяжется с вами в течение 15 минут</div>
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Имя" required="required">
+				</div>
+				<div class="item-form">
+					<input type="text" class="input-phone" placeholder="+7 (___) ___-__-__" required="required">
+				</div>
+				<button class="btn-main" type="submit">Заказать</button>
+				<div class="checkbox-wrap">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" required="required" checked="checked" />
+							<span>Согласие на обработку персональных данных</span>
+						</label>
+					</div> 
+				</div>
+			</form> 
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.13"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<script>
+	$(document).ready(function() {
+		ymaps.ready(init);
+
+		function init() {
+			var myMap = new ymaps.Map('map', {
+				center: [44.940799, 34.088092],
+				zoom: 15
+			}, {
+				searchControlProvider: 'yandex#search'
+			});		
+
+			myPlacemark1 = new ymaps.Placemark([44.940799, 34.088092], {
+				balloonContent: '<p class="text-map">ул. Кирова 29А, оф. 412</p>'
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [30, 50],
+				iconImageOffset: [-15, -50],
+				balloonOffset: [ 0, -50 ]
+			});
+			myMap.controls.remove('searchControl');
+			myMap.behaviors.disable('scrollZoom');
+			myMap.geoObjects.add(myPlacemark1);
+		}
+	});
+</script> 
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="css/media.css?ver=1.13" />
 </head>
 <body>
-
+ 
 	<div class="wrapper">
 
 		<div class="buttons-mobile">
@@ -136,114 +136,108 @@
 			</div>
 		</header>
 
-		<div class="billbord">
+		<div class="container">
+			<ul class="breadcumbs">
+				<li><a href="#">Главная</a><span>></span></li>
+				<li><a href="#">Каталог</a><span>></span></li>
+				<li><a href="#">Сухие смеси и грунтовки</a><span>></span></li>
+				<li>Грунтовка глубокого проникновения</li>
+			</ul>
+		</div>
+
+		<div class="card">
 			<div class="container">
+				<div class="row row_card">
+					<div class="col-lg-6">
+						<div class="card__image">
+							<img src="img/card.jpg" alt="alt">
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="card-info">
+							<div class="card-info__top">
+								<div class="articul-catalog">Арт. 12757510</div>
+								<div class="availability">В наличии</div>
+							</div>
+							<div class="title-middle">Грунтовка глубокого проникновения Ceresit CT17 10 л</div>
+							<ul class="rating rating_4">
+								<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+								<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+								<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+								<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+								<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+							</ul>
+							<div class="card-info__features">
+								<div class="card-info__line"><span>Вес, кг</span> <span>10.32</span></div>
+								<div class="card-info__line"><span>Объем (л)</span> <span>10.0</span></div>
+								<div class="card-info__line"><span>Расход (в м² / л)</span> <span>10</span></div>
+							</div>
+							<div class="card-info__prices">
+								<div class="card-info__oldprice">800 Р/шт.</div>
+								<div class="card-info__price"><span>740</span> Р/шт.</div>
+							</div>
+							<div class="card-info__bottom">
+								<div class="quantity">
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-main">В корзину</a>
+								<a href="#" class="btn-compare"><i class="far fa-signal-alt-3"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="row">
-					<div class="col-lg-8">
-						<div class="billbord__image">
-							<picture>
-							 	<source srcset="img/billbord1.jpg" media="(min-width: 600px)">
-							 	<img src="img/billbord1.jpg" alt="alt">
-							</picture>
+					<div class="col-lg-9">
+						<div class="card-detail">
+							<ul class="tabs-card">
+								<li class="active"><a href="#tab_card1">Характеристики</a></li>
+								<li><a href="#tab_card2">Описание</a></li>
+								<li><a href="#tab_card3">Отзывы</a></li>
+							</ul>
+							<div class="tab-container-card">
+								<div class="tab-pane-card" id="tab_card1">
+									<div class="features-wrap">
+										<div class="item-feature"><span>Вес, кг</span> <span>10.32</span></div>
+										<div class="item-feature"><span>Тип продукта</span> <span>Грунтовка глубокого проникновения</span></div>
+										<div class="item-feature"><span>Объем (л)</span> <span>10.0</span></div>
+										<div class="item-feature"><span>Расход (в м² / л)</span> <span>10</span></div>
+										<div class="item-feature"><span>Площадь покрытия (м²)</span> <span>100.0</span></div>
+										<div class="item-feature"><span>Время полного высыхания (ч)</span> <span>4.0</span></div>
+										<div class="item-feature"><span>Минимальная температура применения (°C)</span> <span>5.0</span></div>
+										<div class="item-feature"><span>Максимальная температура применения (°C)</span> <span>30.0</span></div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="col-lg-4">
-						<div class="billbord__image">
-							<picture>
-							 	<source srcset="img/billbord2.jpg" media="(min-width: 600px)">
-							 	<img src="img/billbord2.jpg" alt="alt">
-							</picture>
-						</div>
+					<div class="col-lg-3">
+						<div class="title-delivery"><div class="title-delivery__icon"><img src="img/ic_del1.png" alt="alt"></div>Доставка</div>
+						<ul class="list-delivery">
+							<li>Доставка нашим транспортом.</li>
+							<li>Стоимость доставки уточняйте у менеджера.</li>
+							<li>Стоимость доставки по городам</li>
+							<li>Самовывоз: Вы можете самостоятельно забрать товар со склада.</li>
+						</ul>
+						<div class="title-delivery"><div class="title-delivery__icon"><img src="img/ic_del2.png" alt="alt"></div>Оплата</div>
+						<ul class="list-delivery">
+							<li>Оплата наличными при самовывозе из наших магазинов либо курьеру при доставке товара.</li>
+							<li>Оплата банковской картой онлайн с сайта: виза, мастер кард, мир</li>
+						</ul>
+						<ul class="list-payments">
+							<li><img src="img/payment1.png" alt="alt"></li>
+							<li><img src="img/payment2.png" alt="alt"></li>
+							<li><img src="img/payment3.png" alt="alt"></li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="categories">
+		<div class="products-section">
 			<div class="container">
-				<div class="title-section">Каталог товаров</div>
-				<div class="row row_categories">
-					<div class="col-lg-6">
-						<div class="item-category">
-							<a href="#" class="item-category__title">Строительные материалы</a>
-							<ul>
-								<li><a href="#">Сухие смеси и грунтовки</a></li>
-								<li><a href="#">Гипсокартонные системы</a></li>
-								<li><a href="#">Ленты строительные</a></li>
-								<li><a href="#">Древесно-плитные материалы</a></li>
-							</ul>
-							<a href="#" class="link-more">+20 категорий <i class="far fa-chevron-right"></i></a>
-							<div class="item-category__image">
-								<img src="img/category1.png" alt="alt">
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="item-category">
-							<a href="#" class="item-category__title">Климат и отопление</a>
-							<ul>
-								<li><a href="#">Отопительное оборудование</a></li>
-								<li><a href="#">Напольные вентиляторы</a></li>
-								<li><a href="#">Системы антиобледенения</a></li>
-								<li><a href="#">Системы вентиляции и тёплый пол</a></li>
-							</ul>
-							<a href="#" class="link-more">+15 категорий <i class="far fa-chevron-right"></i></a>
-							<div class="item-category__image">
-								<img src="img/category2.png" alt="alt">
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="item-category">
-							<a href="#" class="item-category__title">Товары для дачи и дома</a>
-							<ul>
-								<li><a href="#">Садовый инструмент и инвентарь</a></li>
-								<li><a href="#">Хозяйственные товары</a></li>
-								<li><a href="#">Товары для растений</a></li>
-							</ul>
-							<a href="#" class="link-more">+10 категорий <i class="far fa-chevron-right"></i></a>
-							<div class="item-category__image">
-								<img src="img/category3.png" alt="alt">
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="item-category">
-							<a href="#" class="item-category__title">Электрика</a>
-							<ul>
-								<li><a href="#">Щитки, автоматы, счетчики</a></li>
-								<li><a href="#">Батарейки и аккумуляторы</a></li>
-								<li><a href="#">Розетки и выключатели</a></li>
-							</ul>
-							<a href="#" class="link-more">+10 категорий <i class="far fa-chevron-right"></i></a>
-							<div class="item-category__image">
-								<img src="img/category4.png" alt="alt">
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="item-category">
-							<a href="#" class="item-category__title">Кровля и фасад</a>
-							<ul>
-								<li><a href="#">Кровельные материалы</a></li>
-								<li><a href="#">Штукатурные фасады</a></li>
-								<li><a href="#">Ограждения и сайдинг</a></li>
-							</ul>
-							<a href="#" class="link-more">+10 категорий <i class="far fa-chevron-right"></i></a>
-							<div class="item-category__image">
-								<img src="img/category5.png" alt="alt">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="products">
-			<div class="container">
-				<div class="title-section">Выгодно сегодня</div>
-			</div>
-			<div class="products__wrap">
+				<div class="title-section">Сопутствующие товары</div>
 				<div class="container">
 					<ul class="slider-products">
 						<li>
@@ -365,11 +359,9 @@
 			</div>
 		</div>
 
-		<div class="products">
+		<div class="products-section">
 			<div class="container">
-				<div class="title-section">Вам может понадобиться</div>
-			</div>
-			<div class="products__wrap">
+				<div class="title-section">Похожие товары</div>
 				<div class="container">
 					<ul class="slider-products">
 						<li>
@@ -482,97 +474,6 @@
 			</div>
 		</div>
 
-		<div class="whatsapp">
-			<div class="container">
-				<div class="whatsapp-block">
-					<div class="title-big">Нет времени искать все товары на сайте?</div>
-					<div class="descr-big">Найдем все товары за вас. Напишите что вы хотите купить, а мы подберем товары по вашему списку и озвучим итоговую стоимость</div>
-					<div class="whatsapp-block__buttons">
-						<a href="#" class="btn-main">ОТПРАВИТЬ СПИСОК</a>
-						<a href="#" class="btn-social"><span>НАПИСАТЬ В WHATSAPP</span><span class="btn-social__icon"><i class="fab fa-whatsapp"></i></span></a>
-					</div>
-					<div class="whatsapp-block__image">
-						<img src="img/phone.png" alt="alt">
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="advantages">
-			<div class="container">
-				<ul class="slider-advantages">
-					<li>
-						<div class="item-advantage">
-							<div class="item-advantage__icon">
-								<img src="img/ic_avd1.png" alt="alt">
-							</div>
-							<div class="item-advantage__title">Более 7 000 наименований <br>в каталоге</div>
-							<p>Текст преимущества, описывающий акционное предложение, желательно не больше, чем в две или три строки</p>
-						</div>
-					</li>
-					<li>
-						<div class="item-advantage">
-							<div class="item-advantage__icon">
-								<img src="img/ic_avd2.png" alt="alt">
-							</div>
-							<div class="item-advantage__title">Круглосуточная доставка строительных материалов</div>
-							<p>Текст преимущества, описывающий акционное предложение, желательно не больше, чем в две или три строки</p>
-						</div>
-					</li>
-					<li>
-						<div class="item-advantage">
-							<div class="item-advantage__icon">
-								<img src="img/ic_avd3.png" alt="alt">
-							</div>
-							<div class="item-advantage__title">Возврат товара, который не подошел течение 100 дней</div>
-							<p>Текст преимущества, описывающий акционное предложение, желательно не больше, чем в две или три строки</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-
-		<div class="contacts">
-			<div class="container">
-				<div class="contacts-block">
-					<div class="contacts-block__top">
-						<div class="title-middle">Приходите к нам в офис</div>
-						<div class="availability">Работаем круглосуточно</div>
-					</div>
-					<p>и наш специалист поможет подобрать лучшие строительные материалы под ваши нужды</p>
-					<div class="row">
-						<div class="col-6">
-							<div class="contacts-block__item">
-								<strong>Адрес: </strong>
-								<p>Симферополь, ул. Объездная</p>
-							</div>
-							<div class="contacts-block__item">
-								<strong>Режим работы:</strong>
-								<p>круглосуточно</p>
-							</div>
-							<div class="contacts-block__item">
-								<strong>E-mail:</strong>
-								<p><a href="mailto:u-stroy@yandex.ru">u-stroy@yandex.ru</a></p>
-							</div>
-						</div>
-						<div class="col-6 contacts-block__right">
-							<div class="contacts-block__item">
-								<strong>Телефон:</strong>
-								<p><a href="tel:+79780340395" class="phone-main">+7 (978) 034-03-95</a></p>
-							</div>
-							<ul class="social-list">
-								<li><a href="#" style="background-color: #7360f2;"><i class="fab fa-viber"></i></a></li>
-								<li><a href="#" style="background-color: #33ce62;"><i class="fab fa-whatsapp"></i></i></a></li>
-								<li><a href="#" style="background-color: #df4db4;"><i class="fab fa-instagram"></i></a></li>
-							</ul>
-							<a href="#callback" class="btn-main fancybox">заказать звонок</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="map"></div>
-		</div>
-
 		<footer class="footer">
 			<div class="container">
 				<a href="#" class="logo">
@@ -639,7 +540,7 @@
 				</div>
 			</div>
 			<div class="footer__bottom">
-				<div class="container"> 
+				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-3">
 							<a href="#">Политика конфиденциальности</a>
@@ -654,11 +555,11 @@
 							<a href="#" class="btn_top default"><i class="fa fa-arrow-up"></i></a>
 						</div>
 					</div>
-				</div>
+				</div> 
 			</div>
 		</footer>
 		
-	</div>
+	</div> 
 
 	<div id="callback" class="modal-block">
 		<div class="modal-wrap">
@@ -667,7 +568,7 @@
 			<form>
 				<div class="item-form">
 					<input type="text" placeholder="Имя" required="required">
-				</div>
+				</div> 
 				<div class="item-form">
 					<input type="text" class="input-phone" placeholder="+7 (___) ___-__-__" required="required">
 				</div>
@@ -699,39 +600,6 @@
 <script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
 <script src="js/common.js?ver=1.13"></script>
-<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-<script>
-	$(document).ready(function() {
-		ymaps.ready(init);
-
-		function init() {
-			var myMap = new ymaps.Map('map', {
-				center: [44.941950, 34.080389],
-				zoom: 15
-			}, {
-				searchControlProvider: 'yandex#search'
-			});		
-			{
-				if ($(window).width() < 992) {
-					myMap.setCenter([44.940799, 34.088092]);
-				}
-			}
-			myPlacemark1 = new ymaps.Placemark([44.940799, 34.088092], {
-				balloonContent: '<p class="text-map">ул. Кирова 29А, оф. 412</p>'
-			}, {
-				iconLayout: 'default#image',
-				iconImageHref: 'img/pin.svg',
-				hideIconOnBalloonOpen: false,
-				iconImageSize: [30, 50],
-				iconImageOffset: [-15, -50],
-				balloonOffset: [ 0, -50 ]
-			});
-			myMap.controls.remove('searchControl');
-			myMap.behaviors.disable('scrollZoom');
-			myMap.geoObjects.add(myPlacemark1);
-		}
-	});
-</script> 
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

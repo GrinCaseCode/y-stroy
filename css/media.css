@@ -3,6 +3,10 @@
 	.social-fixed {
 		top: 205px;
 	}
+	.contacts-main {
+		padding: 37px 36px;
+		padding-top: 0;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -63,6 +67,27 @@
 	.sidebar-buttons .btn-main {
 		width: 160px;
 		margin-bottom: 10px;
+	}
+	.title-delivery {
+		margin-top: 0;
+	}
+	.contacts-location {
+		padding: 33px 28px;
+	}
+	.contacts-page .block-form {
+		padding: 28px 25px;
+	}
+	.title-form {
+		font-size: 19px;
+		margin-bottom: 24px;
+	}
+	.title-middle {
+		font-size: 19px;
+		line-height: 27px;
+	}
+	.contacts-main {
+		padding: 26px 16px;
+		padding-top: 0;
 	}
 }
 
@@ -274,6 +299,26 @@
 	.sidebar-buttons .btn-main {
 		width: 45%;
 	}
+	.card-detail {
+		margin-bottom: 10px;
+	}
+	.contacts-page .col_pl {
+		padding-left: 15px;
+	}
+	.contacts-main {
+		margin-bottom: 20px;
+	}
+	.contacts-location {
+		font-size: 15px;
+	}
+	.title-form {
+		font-size: 17px;
+		margin-bottom: 24px;
+		line-height: 26px;
+	}
+	.contacts-page .block-form {
+		padding: 35px 25px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -339,6 +384,33 @@
 	.pager {
 		justify-content: center;
 		margin-top: 10px;
+	}
+	.card-info .btn-main {
+		padding: 0 33px;
+	}
+	.item-feature {
+		font-size: 14px;
+	}
+	.tabs-card li {
+		margin-right: 40px;
+	}
+	.card__image {
+		height: 300px;
+	}
+	.contacts-main .availability {
+		margin-top: 17px;
+	}
+	.contacts-page .block-form {
+		margin-bottom: 20px;
+	}
+	.contacts-image {
+		max-width: 290px;
+	}
+	.contacts-page {
+		padding-bottom: 20px;
+	}
+	.title-section_page {
+		padding-top: 20px;
 	}
 }
 
@@ -457,6 +529,81 @@
 	}
 	.page-numbers.next {
 		margin-left: 25px;
+	}
+	.card-info {
+		padding: 20px 15px;
+	}
+	.title-middle {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.card-info__bottom {
+		flex-wrap: wrap;
+	}
+	.card-info__bottom > * {
+		margin-bottom: 10px;
+	}
+	.card-info__line > *:first-child {
+		width: 70%;
+	}
+	.card-info__price span {
+		font-size: 20px;
+	}
+	.card-info__price {
+		font-size: 16px;
+	}
+	.tabs-card {
+		font-size: 14px;
+		justify-content: space-between;
+	}
+	.tabs-card li {
+		margin-right: 0;
+	}
+	.item-feature {
+		font-size: 13px;
+		padding: 7px 5px;
+	}
+	.tab-container-card {
+		padding-top: 20px;
+	}
+	.title-delivery {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.card {
+		padding-bottom: 40px;
+	}
+	.products-section .title-section {
+		padding-bottom: 0;
+	}
+	.contacts-mail {
+		font-size: 16px;
+		line-height: 27px;
+	}
+	.contacts-main__wrap {
+		padding-top: 20px;
+		background-position: 15px;
+	}
+	.contacts-main__wrap .social-list {
+		padding-top: 0;
+	}
+	.contacts-location {
+		padding: 20px 15px;
+	}
+	.contacts-page .block-form {
+		padding: 20px 15px;
+	}
+	.modal-wrap {
+		padding: 50px 15px; 
+		padding-bottom: 30px;
+	}
+	.descr-modal {
+		font-size: 15px;
+		line-height: 21px;
+		padding-bottom: 16px;
+	}
+	.checkbox-wrap .checkbox {
+		white-space: normal;
 	}
 }
 

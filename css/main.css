@@ -1592,6 +1592,7 @@ input[type=number]
 }
 .card-detail {
 	padding: 25px 16px;
+	min-height: 100%;
 	background-color: #ffffff;
 	border-radius: 6px;
 }
@@ -1621,6 +1622,12 @@ input[type=number]
 }
 .tabs-card li:last-child {
 	margin-right: 0;
+}
+.tab-pane-card {
+	display: none;
+}
+.tab-pane-card:first-child {
+	display: block;
 }
 .item-feature {
 	padding: 9px 14px;

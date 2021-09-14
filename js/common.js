@@ -200,6 +200,15 @@ $(".btn-main_filter").click(function(e) {
 		}).on("blur", updateValues)
 	});
 
+	$('.tabs-card li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-card").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+	});
+
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 

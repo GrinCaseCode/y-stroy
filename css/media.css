@@ -89,6 +89,14 @@
 		padding: 26px 16px;
 		padding-top: 0;
 	}
+
+	/*personal*/
+	.bonus-main .row {
+		margin: 0 -15px;
+	}
+	.bonus-main .row > div {
+		padding: 0 15px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -319,6 +327,104 @@
 	.contacts-page .block-form {
 		padding: 35px 25px;
 	}
+
+
+	/*personal*/
+	.purchase-history__head {
+		display: none;
+	}
+	.purchase-history {
+		text-align: left;
+	}
+	.purchase-history__name {
+		margin-left: 0;
+	}
+	.purchase-history__item .row > div:nth-last-child(2) {
+		padding-left: 15px;
+	}
+	.purchase-subtable td::before,
+	.purchase-history__item .row > div::before {
+		width: 150px;
+		padding-left: 15px;
+		font-size: 14px;
+		text-align: left;
+		display: block;
+		flex: none;
+		content: attr(data-title);
+	}
+	.purchase-history__item .row > div {
+		margin-bottom: 10px;
+		display: flex;
+		align-items: center;
+	}
+	.purchase-history {
+		margin: 0 -15px;
+	}
+	.purchase-subtable thead {
+		display: none;
+	}
+	.purchase-subtable table, 
+	.purchase-subtable tbody, 
+	.purchase-subtable tr {
+		display: block;
+	}
+	.purchase-subtable td  {
+		display: flex;
+		border: none;
+	}
+	.purchase-subtable th:first-child, .purchase-subtable td:first-child {
+		width: 100%;
+		padding-left: 0;
+	}
+	.purchase-subtable th:nth-child(2), .purchase-subtable td:nth-child(2) {
+		text-align: left;
+	}
+	.purchase-subtable td {
+		padding: 7px 0;
+		background-color: transparent;
+	}
+	.purchase-subtable tr {
+		padding: 15px 0;
+		border-bottom: 1px solid #ccc;
+	}
+	.purchase-subtable tr:last-child {
+		border: none;
+	}
+	.purchase-subtable {
+		margin: 0;
+		background-color: #f3f3f3;
+	}
+	.personal .tabs-card li {
+		margin-right: 40px;
+	}
+	.purchase-subtable th:last-child, .purchase-subtable td:last-child {
+		width: 100%;
+	}
+	.purchase-history__item .row > div:nth-last-child(3) {
+		font-size: 16px;
+	}
+	.bonus-main .row {
+		margin: 0 -5px;
+	}
+	.bonus-main .row > div {
+		padding: 0 5px;
+	}
+	.bonus-bar__title {
+		font-size: 15px;
+	}
+	.bonus-bar__value {
+		font-size: 45px;
+		line-height: 42px;
+	}
+	.bonus-bar__value span {
+		font-size: 26px;
+	}
+	.bonus-bar__content {
+		padding: 15px 10px;
+	}
+	.bonus-bar-wrap {
+		height: 320px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -411,6 +517,43 @@
 	}
 	.title-section_page {
 		padding-top: 20px;
+	}
+
+	/*personal*/
+	.personal .tabs-card li {
+		margin: 0;
+		margin-bottom: 10px;
+		width: 50%;
+		text-align: center;
+	}
+	.personal .tab-container-card {
+		padding-top: 15px;
+	}
+	.bonus-main__content {
+		padding: 20px 15px;
+	}
+	.link-main {
+		font-size: 16px;
+		line-height: 16px;
+	}
+	.bonus-bar__title {
+		font-size: 13px;
+	}
+	.bonus-bar__content {
+		padding: 10px 4px;
+	}
+	.bonus-bar-wrap {
+		height: 260px;
+	}
+	.bonus-main__head {
+		padding: 13px 15px;
+		display: block;
+	}
+	.bonus-main__head span {
+		font-size: 21px;
+	}
+	.bonus-main__descr {
+		padding-top: 6px;
 	}
 }
 
@@ -605,8 +748,45 @@
 	.checkbox-wrap .checkbox {
 		white-space: normal;
 	}
-}
 
+	/*personal*/
+	.bonus-main {
+		margin: 0 -15px;
+	}
+	.bonus-bar__value {
+    font-size: 35px;
+    line-height: 32px;
+}
+.bonus-bar__value span {
+	font-size: 19px;
+}
+.bonus-main .row > div {
+	padding: 0 2px;
+}
+.bonus-main .row {
+	margin: 0 -2px;
+	margin-top: -40px;
+}
+.bonus-bar__title {
+    font-size: 11px;
+}
+.bonus-bar-wrap {
+	height: 200px;
+}
+.bonus-main .row > div:nth-child(1) .bonus-bar-wrap {
+	height: 260px;
+}
+.bonus-main .row > div:nth-child(2) .bonus-bar-wrap {
+	height: 240px;
+}
+.bonus-main .row {
+	align-items: flex-end;
+}
+.form-personal {
+	margin: 0 -15px;
+}
+}
+ 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
@@ -638,6 +818,20 @@
 	}
 	.sidebar-catalog {
 		display: block !important;
+	}
+
+	/*personal*/
+	.purchase-history .row > div:nth-child(1) {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 24.666667%;
+		flex: 0 0 24.666667%;
+		max-width: 24.666667%;
+	}
+	.purchase-history .row > div:not(:nth-child(1)) {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 14.666667%;
+		flex: 0 0 14.666667%;
+		max-width: 14.666667%;
 	}
 }
 

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.14" /> 
+	<link rel="stylesheet" href="css/media.css?ver=1.14" />
+</head>
+<body> 
+
+	<div class="wrapper">
+
+		<div class="buttons-mobile">
+			<a href="#" class="btn-mobile"><i class="far fa-home"></i></a>
+			<a href="#" class="btn-mobile"><i class="far fa-user"></i></a>
+			<a href="#" class="btn-mobile"><i class="far fa-signal-alt-3"></i></a>
+			<a href="#" class="btn-mobile"><i class="far fa-shopping-cart"></i><span class="btn-mobile__value">10</span></a>
+		</div>
+
+		<div class="social-fixed">
+			<ul>
+				<li><a href="#" style="background: #7360f2"><i class="fab fa-viber"></i></a></li>
+				<li><a href="#" style="background: #33ce62"><i class="fab fa-whatsapp"></i></i></a></li>
+				<li><a href="#" style="background: #df4db4"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+		</div>
+
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top__wrap">
+						<ul class="menu">
+							<li><a href="#">О магазине</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">Бонусная программа</a></li>
+							<li><a href="#">Оптовым покупателям</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+						<a href="#" class="links-authorization">Вход / Регистрация</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-middle">
+				<div class="container">
+					<div class="header-middle__wrap">
+						<div class="logo-wrap">
+							<a href="#" class="logo">
+								<img src="img/logo.png" alt="alt">
+							</a>
+							<div class="logo-descr">Гипермаркет строительных материалов с круглосуточной доставкой по Крыму</div>
+						</div>
+						<div class="contact-item">
+							<b>Адрес:</b>
+							<p>Симферополь, ул. Объездная</p>
+						</div>
+						<div class="contact-item">
+							<b><a href="mailto:u-stroy@yandex.ru">u-stroy@yandex.ru</a></b>
+							<a href="#callback" class="link-simple fancybox">Напишите мне</a>
+						</div>
+						<div class="header__contacts">
+							<a href="tel:+79780340395" class="phone-main">+7 (978) 034-03-95</a>
+							<a href="#callback" class="link-simple fancybox">Позвоните мне</a>
+						</div>
+						<a href="tel:+79780340395" class="phone-mob"><i class="fas fa-phone"></i></a>
+						<span class="btn_nav">
+							<span class='sandwich'>
+								<span class='sw-topper'></span>
+								<span class='sw-bottom'></span>
+								<span class='sw-footer'></span>
+							</span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="header-bottom__wrap">
+						<a href="#" class="btn-catalog"><i class="fas fa-bars"></i><span>Каталог</span></a>
+						<div class="form-search">
+							<form>
+								<input type="text" placeholder="Что вы ищете?" required="required">
+								<button class="btn-search"><i class="far fa-search"></i></button>
+							</form>
+						</div>
+						<div class="buttons-actions">
+							<a href="#" class="btn-action"><i class="far fa-signal-alt-3"></i></a>
+							<a href="#" class="btn-action"><i class="far fa-shopping-cart"></i><span class="btn-action__value">10</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<div class="form-search">
+					<form>
+						<input type="text" placeholder="Что вы ищете?" required="required">
+						<button class="btn-search"><i class="far fa-search"></i></button>
+					</form>
+				</div>
+				<ul class="menu-mobile__nav">
+					<li><a href="#">О магазине</a></li>
+					<li><a href="#">Доставка и оплата</a></li>
+					<li><a href="#">Акции</a></li>
+					<li><a href="#">Бонусная программа</a></li>
+					<li><a href="#">Оптовым покупателям</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="contact-item">
+					<b>Адрес:</b>
+					<p>Симферополь, ул. Объездная</p>
+				</div>
+				<div class="contact-item">
+					<b><a href="mailto:u-stroy@yandex.ru">u-stroy@yandex.ru</a></b>
+					<a href="#callback" class="link-simple fancybox">Напишите мне</a>
+				</div>
+				<div class="header__contacts">
+					<a href="tel:+79780340395" class="phone-main">+7 (978) 034-03-95</a>
+					<a href="#callback" class="link-simple fancybox">Позвоните мне</a>
+				</div>
+			</div>
+		</header>
+
+		<div class="personal">
+			<div class="container">
+				<h1 class="title-section">Личный кабинет</h1>
+				<ul class="tabs-card">
+					<li class="active"><a href="#tab_personal1">Личные данные</a></li>
+					<li><a href="#tab_personal2">История заказов</a></li>
+					<li><a href="#tab_personal3">Бонусная программа</a></li>
+					<li><a href="#" class="exit-personal">Выйти</a></li>
+				</ul>
+				<div class="tab-container-card"> 
+					<div class="tab-pane-card" id="tab_personal1">
+						<div class="form-personal">
+							<form>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="item-form">
+											<input type="text" placeholder="Ф. И. О.  *" required="required">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="item-form">
+											<input type="text" placeholder="Телефон  *" class="input-phone" required="required">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="item-form">
+											<input type="email" placeholder="E-mail  *" required="required">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="item-form">
+											<input type="text" placeholder="Адрес  *" required="required">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="item-form">
+											<input type="password" placeholder="Пароль  *" required="required">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="item-form">
+											<input type="password" placeholder="Изменить пароль  *" required="required">
+										</div>
+									</div>
+								</div>
+								<div class="checkbox-wrap">
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" required="required" checked="checked" />
+											<span>Согласие на обработку персональных данных</span>
+										</label>
+									</div>
+								</div>
+								<div class="button-form">
+									<button class="btn-main" type="submit">Заказать</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="tab-pane-card" id="tab_personal2">
+						<div class="purchase-history">
+							<div class="purchase-history__head">
+								<div class="row">
+									<div class="col-lg-2">
+										<div class="purchase-history__title">Номер заказа</div>
+									</div>
+									<div class="col-lg-2">
+										<div class="purchase-history__title">Дата заказа</div>
+									</div>
+									<div class="col-lg-2">
+										<div class="purchase-history__title">Кол-во товаров</div>
+									</div>
+									<div class="col-lg-2">
+										<div class="purchase-history__title">Сумма заказа</div>
+									</div>
+									<div class="col-lg-2">
+										<div class="purchase-history__title">Тип оплаты</div>
+									</div>
+									<div class="col-lg-2">
+										<div class="purchase-history__title">Статус</div>
+									</div>
+								</div>
+							</div>
+							<div class="purchase-history__item">
+								<div class="row">
+									<div class="col-lg-2" data-title="Номер заказа">
+										<div class="purchase-history__name">37334505-0022 <i class="far fa-chevron-down"></i></div>
+									</div>
+									<div class="col-lg-2" data-title="Дата заказа">
+										<p>от 10.12.2021</p>
+									</div>
+									<div class="col-lg-2" data-title="Кол-во товаров">
+										<p>1 товар</p>
+									</div>
+									<div class="col-lg-2" data-title="Сумма заказа">
+										<p><strong>53 290,00 Р</strong></p>
+									</div>
+									<div class="col-lg-2" data-title="Тип оплаты">
+										<p>Картой онлайн</p>
+									</div>
+									<div class="col-lg-2" data-title="Статус">
+										<p>Оплачено</p>
+									</div>
+								</div>
+								<div class="purchase-subtable">
+									<table>
+										<thead>
+											<tr>
+												<th>Наименование</th>
+												<th>Скидка</th>
+												<th>Цена</th>
+												<th>Количество</th>
+												<th>Сумма</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td data-title="Наименование">Грунтовка полимерная Knauf Тифенгрунд 10 л</td>
+												<td data-title="Скидка">15%</td>
+												<td data-title="Цена">922 Р</td>
+												<td data-title="Количество">4 шт</td>
+												<td data-title="Сумма">3 134,80 Р</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="purchase-history__item">
+								<div class="row">
+									<div class="col-lg-2" data-title="Номер заказа">
+										<div class="purchase-history__name">37334505-0022 <i class="far fa-chevron-down"></i></div>
+									</div>
+									<div class="col-lg-2" data-title="Дата заказа">
+										<p>от 10.12.2021</p>
+									</div>
+									<div class="col-lg-2" data-title="Кол-во товаров">
+										<p>1 товар</p>
+									</div>
+									<div class="col-lg-2" data-title="Сумма заказа">
+										<p><strong>53 290,00 Р</strong></p>
+									</div>
+									<div class="col-lg-2" data-title="Тип оплаты">
+										<p>Картой онлайн</p>
+									</div>
+									<div class="col-lg-2" data-title="Статус">
+										<p>Оплачено</p>
+									</div>
+								</div>
+								<div class="purchase-subtable">
+									<table>
+										<thead>
+											<tr>
+												<th>Наименование</th>
+												<th>Скидка</th>
+												<th>Цена</th>
+												<th>Количество</th>
+												<th>Сумма</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td data-title="Наименование">Грунтовка полимерная Knauf Тифенгрунд 10 л</td>
+												<td data-title="Скидка">15%</td>
+												<td data-title="Цена">922 Р</td>
+												<td data-title="Количество">4 шт</td>
+												<td data-title="Сумма">3 134,80 Р</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="purchase-history__item">
+								<div class="row">
+									<div class="col-lg-2" data-title="Номер заказа">
+										<div class="purchase-history__name">37334505-0022 <i class="far fa-chevron-down"></i></div>
+									</div>
+									<div class="col-lg-2" data-title="Дата заказа">
+										<p>от 10.12.2021</p>
+									</div>
+									<div class="col-lg-2" data-title="Кол-во товаров">
+										<p>1 товар</p>
+									</div>
+									<div class="col-lg-2" data-title="Сумма заказа">
+										<p><strong>53 290,00 Р</strong></p>
+									</div>
+									<div class="col-lg-2" data-title="Тип оплаты">
+										<p>Картой онлайн</p>
+									</div>
+									<div class="col-lg-2" data-title="Статус">
+										<p>Оплачено</p>
+									</div>
+								</div>
+								<div class="purchase-subtable">
+									<table>
+										<thead>
+											<tr>
+												<th>Наименование</th>
+												<th>Скидка</th>
+												<th>Цена</th>
+												<th>Количество</th>
+												<th>Сумма</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td data-title="Наименование">Грунтовка полимерная Knauf Тифенгрунд 10 л</td>
+												<td data-title="Скидка">15%</td>
+												<td data-title="Цена">922 Р</td>
+												<td data-title="Количество">4 шт</td>
+												<td data-title="Сумма">3 134,80 Р</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="purchase-history__item">
+								<div class="row">
+									<div class="col-lg-2" data-title="Номер заказа">
+										<div class="purchase-history__name">37334505-0022 <i class="far fa-chevron-down"></i></div>
+									</div>
+									<div class="col-lg-2" data-title="Дата заказа">
+										<p>от 10.12.2021</p>
+									</div>
+									<div class="col-lg-2" data-title="Кол-во товаров">
+										<p>1 товар</p>
+									</div>
+									<div class="col-lg-2" data-title="Сумма заказа">
+										<p><strong>53 290,00 Р</strong></p>
+									</div>
+									<div class="col-lg-2" data-title="Тип оплаты">
+										<p>Картой онлайн</p>
+									</div>
+									<div class="col-lg-2" data-title="Статус">
+										<p>Оплачено</p>
+									</div>
+								</div>
+								<div class="purchase-subtable">
+									<table>
+										<thead>
+											<tr>
+												<th>Наименование</th>
+												<th>Скидка</th>
+												<th>Цена</th>
+												<th>Количество</th>
+												<th>Сумма</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td data-title="Наименование">Грунтовка полимерная Knauf Тифенгрунд 10 л</td>
+												<td data-title="Скидка">15%</td>
+												<td data-title="Цена">922 Р</td>
+												<td data-title="Количество">4 шт</td>
+												<td data-title="Сумма">3 134,80 Р</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane-card" id="tab_personal3">
+						<div class="bonus-main">
+							<div class="bonus-main__head">
+								<p>Ваша сумма выкупа: <span>55 319 Р</span></p>
+								<p class="bonus-main__descr">Скидка зависит от суммы выкупа за весь период</p>
+							</div>
+							<div class="bonus-main__content">
+								<a href="#" class="link-main">Как работает скидка клиента?</a>
+								<div class="row">
+									<div class="col-lg-3 col-3">
+										<div class="bonus-bar-wrap">
+											<div class="bonus-bar bonus-bar_active" style="height: 37%;">
+												<div class="bonus-bar__content">
+													<div class="bonus-bar__value">10<span>%</span></div>
+													<div class="bonus-bar__title">Ваша текущая скидка</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-3">
+										<div class="bonus-bar-wrap">
+											<div class="bonus-bar" style="height: 50%;">
+												<div class="bonus-bar__content">
+													<div class="bonus-bar__value">50<span>%</span></div>
+													<div class="bonus-bar__title">Сумма выкупа <br>от 100 000 Р</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-3">
+										<div class="bonus-bar-wrap">
+											<div class="bonus-bar" style="height: 76%;">
+												<div class="bonus-bar__content">
+													<div class="bonus-bar__value">7<span>%</span></div>
+													<div class="bonus-bar__title">Сумма выкупа <br>от 250 000 Р</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-3">
+										<div class="bonus-bar-wrap">
+											<div class="bonus-bar" style="height: 100%;">
+												<div class="bonus-bar__content">
+													<div class="bonus-bar__value">10<span>%</span></div>
+													<div class="bonus-bar__title">Сумма выкупа <br>от 500 000 Р</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<a href="#" class="logo">
+					<img src="img/logo.png" alt="alt">
+				</a>
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="logo-descr">Гипермаркет строительных материалов с круглосуточной доставкой по Крыму</div>
+						<ul class="social-list social-list_page">
+							<li><a href="#"><i class="fab fa-viber"></i></a></li>
+							<li><a href="#"><i class="fab fa-whatsapp"></i></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">КАТАЛОГ <i class="far fa-plus"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Категория товаров #1</a></li>
+								<li><a href="#">Категория товаров #2</a></li>
+								<li><a href="#">Категория товаров #3</a></li>
+								<li><a href="#">Категория товаров #4</a></li>
+								<li><a href="#">Категория товаров #5</a></li>
+								<li><a href="#">Категория товаров #6</a></li>
+								<li><a href="#">Категория товаров #7</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title footer__title_mob">Услуги <i class="far fa-plus"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav footer__nav_big">
+								<li><a href="#">ДОСТАВКА И ОПЛАТА</a></li>
+								<li><a href="#">АКЦИИ И СКИДКИ</a></li>
+								<li><a href="#">БОНУСНАЯ ПРОГРАММА</a></li>
+								<li><a href="#">ОПТОВЫМ ПОКУПАТЕЛЯМ</a></li>
+								<li><a href="#">О КОМПАНИИ</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 footer-right">
+						<div class="footer-right__content">
+							<div class="footer__title">Контакты <i class="far fa-plus"></i></div>
+							<div class="footer__content">
+								<div class="contact-item">
+									<b>Адрес:</b>
+									<p>Симферополь, ул. Объездная</p>
+								</div>
+								<div class="contact-item">
+									<b>Телефон:</b>
+									<a href="tel:+79780340395" class="phone-main">+7 (978) 034-03-95</a>
+								</div>
+								<div class="contact-item">
+									<b>Режим работы:</b>
+									<p>круглосуточно</p>
+								</div>
+								<div class="contact-item">
+									<b>E-mail:</b>
+									<p><a href="mailto:u-stroy@yandex.ru">u-stroy@yandex.ru</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-3">
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="col-lg-3 col_pl">
+							<p>г. Симферополь © Copyright 2021 г.</p>
+						</div>
+						<div class="col-lg-3">
+							<div class="create">Сделано в <img src="img/copy.svg" alt="alt"></div>
+						</div>
+						<div class="col-lg-3 align_right">
+							<a href="#" class="btn_top default"><i class="fa fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</footer>
+		
+	</div>
+
+	<div id="callback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-middle">Заказать звонок</div>
+			<div class="descr-modal">Заполните форму и наш менеджер свяжется с вами в течение 15 минут</div>
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Имя" required="required">
+				</div>
+				<div class="item-form">
+					<input type="text" class="input-phone" placeholder="+7 (___) ___-__-__" required="required">
+				</div>
+				<button class="btn-main" type="submit">Заказать</button>
+				<div class="checkbox-wrap">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" required="required" checked="checked" />
+							<span>Согласие на обработку персональных данных</span>
+						</label>
+					</div> 
+				</div>
+			</form> 
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.14"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

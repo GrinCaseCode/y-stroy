@@ -1623,7 +1623,7 @@ input[type=number]
 .tabs-card li:last-child {
 	margin-right: 0;
 }
-.tab-pane-card {
+.tab-pane-card { 
 	display: none;
 }
 .tab-pane-card:first-child {

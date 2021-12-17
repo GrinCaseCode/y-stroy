@@ -522,12 +522,12 @@
 	/*personal*/
 	.personal .tabs-card li {
 		margin: 0;
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 		width: 50%;
 		text-align: center;
 	}
 	.personal .tab-container-card {
-		padding-top: 15px;
+		padding-top: 10px;
 	}
 	.bonus-main__content {
 		padding: 20px 15px;

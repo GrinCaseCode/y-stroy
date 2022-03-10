@@ -125,6 +125,39 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		]
 	});
 
+	/*new pages*/
+	$('.slider-gallery').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		slidesToShow: 3,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow:3,
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow:2,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow:1,
+				arrows: false,
+				dots: true,
+			}
+		}
+		]
+	});
+
 
 	jQuery('.quantity').each(function() {
 		var spinner = jQuery(this),
